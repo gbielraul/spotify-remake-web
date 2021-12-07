@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Spotify</title>
+</head>
+
+<body>
+    <div class="content">
+        <!-- Navigation container -->
+        <nav class="nav">
+            <img src="./src/images/logo-name-white.svg" class="logo" alt="Logo">
+            <!-- Navigation items -->
+            <ul class="nav-list">
+                <li class="nav-home" id="active">
+                    <img src="./src/images/ic-home-uncheck.svg" alt="Home page" class="nav-home-icon">
+                    <a href="#">Início</a>
+                </li>
+                <li class="nav-search">
+                    <img src="./src/images/ic-search-uncheck.svg" alt="Search page " class="nav-search-icon">
+                    <a href="#">Buscar</a>
+                </li>
+                <li class="nav-library">
+                    <img src="./src/images/ic-library-uncheck.svg" alt="Library page " class="nav-library-icon">
+                    <a href="#">Sua Biblioteca</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Main container -->
+        <main class="main">
+            <header class="main">
+                <div class="navigator-container">
+                    <a href="#" class="back navigator"></a>
+                    <a href="#" class="forward navigator"></a>
+                </div>
+
+                <div class="account-container">
+                    <button class="upgrade">FAÇA UPGRADE</button>
+
+                    <div class="account">
+                        <img src="https://github.com/gbielraul.png?v=3&s=40" alt="Foto de perfil">
+                        <span>Gabriel Raul</span>
+                        <img src="./src/images/ic-down.svg">
+                    </div>
+                </div>
+            </header>
+            <main class="main-content">
+                <h1 class="welcome">Bom dia</h2>
+                    <div class="recently-played">
+                        <div class="shortcut">
+                            <div class="shortcut-content">
+                                <img src="./src/images/cocota-feia-pra-caralho.jpg" alt="Capa" class="shortcut-image">
+                                <span class="shortcut-title">Cocota Feia Pra Caralho</span>
+                            </div>
+                            <button class="shortcut-play">
+                                <img src="./src/images/ic-play.svg" alt="Play">
+                            </button>
+                        </div>
+
+                        <div class="shortcut">
+                            <div class="shortcut-content">
+                                <img src="./src/images/cocota-feia-pra-caralho.jpg" alt="Capa" class="shortcut-image">
+                                <span class="shortcut-title">Cocota Feia Pra Caralho</span>
+                            </div>
+                            <button class="shortcut-play">
+                                <img src="./src/images/ic-play.svg" alt="Play">
+                            </button>
+                        </div>
+
+                        <div class="shortcut">
+                            <div class="shortcut-content">
+                                <img src="./src/images/cocota-feia-pra-caralho.jpg" alt="Capa" class="shortcut-image">
+                                <span class="shortcut-title">Cocota Feia Pra Caralho</span>
+                            </div>
+                            <button class="shortcut-play">
+                                <img src="./src/images/ic-play.svg" alt="Play">
+                            </button>
+                        </div>
+
+                        <div class="shortcut">
+                            <div class="shortcut-content">
+                                <img src="./src/images/cocota-feia-pra-caralho.jpg" alt="Capa" class="shortcut-image">
+                                <span class="shortcut-title">Cocota Feia Pra Caralho</span>
+                            </div>
+                            <button class="shortcut-play">
+                                <img src="./src/images/ic-play.svg" alt="Play">
+                            </button>
+                        </div>
+
+                        <div class="shortcut">
+                            <div class="shortcut-content">
+                                <img src="./src/images/cocota-feia-pra-caralho.jpg" alt="Capa" class="shortcut-image">
+                                <span class="shortcut-title">Cocota Feia Pra Caralho</span>
+                            </div>
+                            <button class="shortcut-play">
+                                <img src="./src/images/ic-play.svg" alt="Play">
+                            </button>
+                        </div>
+
+                        <div class="shortcut">
+                            <div class="shortcut-content">
+                                <img src="./src/images/cocota-feia-pra-caralho.jpg" alt="Capa" class="shortcut-image">
+                                <span class="shortcut-title">Cocota Feia Pra Caralho</span>
+                            </div>
+                            <button class="shortcut-play">
+                                <img src="./src/images/ic-play.svg" alt="Play">
+                            </button>
+                        </div>
+                    </div>
+            </main>
+        </main>
+
+    </div>
+    <!-- Footer container -->
+    <footer class="footer">
+        <!-- Footer song -->
+        <div class="song">
+            <img src="./src/images/groupies.jpg" alt="Capa">
+            <div class="song-info">
+                <span class="song-title">Groupies</span>
+                <span class="song-artist">Doode, Teto, Matuê</span>
+            </div>
+            <input id="checkbox-love" type="checkbox">
+            <div class="checkbox-love">
+                <label for="checkbox-love">
+                    <img src="./src/images/ic-love-uncheck.svg" alt="Favoritar">
+                </label>
+            </div>
+        </div>
+        <!-- Footer player -->
+        <div class="player">
+            <div class="actions">
+                <div class="shuffle">
+                    <input id="checkbox-shuffle" class="checkbox-player-actions" type="checkbox">
+                    <div class="checkbox-shuffle">
+                        <label for="checkbox-shuffle">
+                            <img src="./src/images/ic-shuffle-uncheck.svg" alt="Aleatório">
+                        </label>
+                    </div>
+
+                    <div class="action-indicator"></div>
+                </div>
+
+                <img src="./src/images/ic-previous-song-uncheck.svg" alt="Música anterior" class="action-previous">
+
+                <div class="action-play">
+                    <img src="./src/images/ic-play-black.svg" alt="Play">
+                </div>
+
+                <img src="./src/images/ic-next-song-uncheck.svg" alt="Próxima Música" class="action-next">
+
+                <div class="repeat">
+                    <input type="checkbox" id="checkbox-repeat" class="checkbox-player-actions">
+                    <div class="checkbox-repeat">
+                        <label for="checkbox-repeat">
+                            <img src="./src/images/ic-repeat-uncheck.svg" alt="Repetir">
+                        </label>
+                    </div>
+
+                    <div class="action-indicator"></div>
+                </div>
+            </div>
+
+            <div class="duration">
+                <span>0:00</span>
+                <span class="range"><input type="range" class="song-range"></span>
+                <span>4:13</span>
+            </div>
+        </div>
+
+        <div class="extra-actions">
+
+        </div>
+    </footer>
+</body>
+
+</html>
